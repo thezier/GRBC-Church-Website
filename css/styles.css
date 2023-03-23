@@ -545,6 +545,12 @@ footer {
     padding: 15px 7px;
     width: 150px;
   }
+  .services-container {
+    padding: 0 1rem;
+  }
+  .featured-item {
+    padding: 0 2rem;
+  }
   h3 {
     letter-spacing: 0.3rem;
   }
