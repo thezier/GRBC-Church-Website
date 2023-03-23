@@ -541,4 +541,8 @@ footer {
   .featured-item {
     padding: 0 4rem;
   }
+  .orange-btn {
+    padding: 15px 7px;
+    width: 150px;
+  }
 }
