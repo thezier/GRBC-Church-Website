@@ -545,4 +545,7 @@ footer {
     padding: 15px 7px;
     width: 150px;
   }
+  h3 {
+    letter-spacing: 0.3rem;
+  }
 }
