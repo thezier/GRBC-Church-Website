@@ -64,6 +64,7 @@ h4 {
   letter-spacing: 0.05rem;
   font-size: 1.5rem;
   font-weight: 400;
+  line-height: 3rem;
 }
 h5 {
   font-family: 'Roboto', sans-serif;
@@ -404,6 +405,35 @@ footer {
 .footer-center,
 .footer-right {
   max-width: 350px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.social-icons a {
+  border: none !important;
+  opacity: 1;
+  transition: all 0.3s;
+}
+.social-icons a:hover {
+  opacity: 0.7;
+}
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.07rem;
+  font-size: 0.9rem;
+}
+.contact-icon img {
+  padding: 0.1rem 0.6rem 0 0;
 }
 
 .footer-container ul li {
